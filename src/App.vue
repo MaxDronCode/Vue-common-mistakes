@@ -3,6 +3,8 @@ import KeyForSample from '@/components/KeyForSample.vue'
 import WatchExample from '@/components/WatchExample.vue'
 import ComputedExample from './components/ComputedExample.vue';
 import ComputedExample2 from './components/ComputedExample2.vue';
+import UseRouteExample from './components/UseRouteExample.vue';
+import UseRouteExample2 from './components/UseRouteExample2.vue';
 </script>
 
 <template>
@@ -13,6 +15,10 @@ import ComputedExample2 from './components/ComputedExample2.vue';
   <ComputedExample />
   <br>
   <ComputedExample2 />
+  <br>
+  <UseRouteExample />
+  <br>
+  <UseRouteExample2 />
 </template>
 
 <style scoped>
